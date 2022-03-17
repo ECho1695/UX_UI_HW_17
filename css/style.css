@@ -1,0 +1,43 @@
+header {
+    height: 250px;
+    background-color: black;
+}
+
+.logo {
+    height: 250px;
+}
+
+#logo {
+    height: 250px;
+    width: 350px;
+}
+
+#heroSection {
+    height: 500px;
+    background-color: gray;
+}
+
+#caseStudy {
+    height: 500px;
+    background-color:dimgray
+}
+
+#socialMedia {
+    height: 500px;
+    background-color: darkgrey;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline-block;
+    padding: 20px;
+}
+
+#Resume {
+    background-color: black;
+    border-radius: 10%;
+    color: white;
+}
