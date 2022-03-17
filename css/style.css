@@ -1,6 +1,7 @@
 header {
     height: 250px;
-    background-color: black;
+    background-color: #00004d;
+    color: white;
 }
 
 .logo {
@@ -12,19 +13,27 @@ header {
     width: 350px;
 }
 
-#heroSection {
-    height: 500px;
-    background-color: gray;
+#eric {
+    height: 509px;
+    width: 265px;
+    display: flex;
+    justify-content: end;
+    padding: 0;
+    align-items: flex-end;
+    
+}
+
+#heroImg {
+    height: 550px;
+    width: 265px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 #caseStudy {
     height: 500px;
     background-color:dimgray
-}
-
-#socialMedia {
-    height: 500px;
-    background-color: darkgrey;
 }
 
 ul {
@@ -40,4 +49,16 @@ li {
     background-color: black;
     border-radius: 10%;
     color: white;
+}
+
+.nav {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    align-items: center;
+}
+
+.navLi {
+    display: in;
 }
