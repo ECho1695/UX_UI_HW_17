@@ -1,5 +1,5 @@
 header {
-    height: 250px;
+    height: 350px;
     background-color: #00004d;
     color: white;
 }
@@ -16,9 +16,9 @@ header {
 #eric {
     height: 509px;
     width: 265px;
-    display: flex;
+    display: inline-block;
     justify-content: end;
-    padding: 0;
+    padding: 20px;
     align-items: flex-end;
     
 }
