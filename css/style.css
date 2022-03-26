@@ -9,8 +9,8 @@ header {
 }
 
 #logo {
-    height: 250px;
-    width: 350px;
+    height: 120px;
+    width: 150px;
 }
 
 #eric {
@@ -29,11 +29,7 @@ header {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-}
-
-#caseStudy {
-    height: 500px;
-    background-color:dimgray
+    position: relative;
 }
 
 ul {
@@ -61,4 +57,9 @@ li {
 
 .navLi {
     display: in;
+}
+
+footer {
+    background-color: #00004d;
+    color: white;
 }
