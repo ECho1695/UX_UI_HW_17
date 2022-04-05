@@ -29,7 +29,9 @@ header {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    position: relative;
+    position: fixed;
+    right: 5%;
+    top: 10%;
 }
 
 ul {
@@ -62,4 +64,46 @@ li {
 footer {
     background-color: #00004d;
     color: white;
+}
+
+.flexContainer {
+    display: flex;
+}
+
+.workGrid {
+    display: flex;
+    width: 50%;
+    grid-template-rows: 300px 300px 300px;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-areas: "card card"
+    ;
+}
+
+.row {
+    display: flex;
+    width: 50%;
+    padding: 20px;
+    margin: 20px;
+}
+
+.skill {
+    width: 33%;
+    padding: 5px;
+    margin: 5px;
+}
+
+@media only screen and (max-width: 600){
+    .flexContainer {
+        display: table-column;
+    }
+    .workGrid {
+        display: table-column;
+        width: 100%;
+        grid-template-rows: 300px 300px 300px;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas: 
+        "card"
+        "card"
+        ;
+    }
 }

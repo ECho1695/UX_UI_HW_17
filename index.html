@@ -19,73 +19,86 @@
             body {font-family: "Lato", sans-serif}
             .mySlides {display: none}
         </style>
-                <header>
-                    
-                    <div class="logo">
-                        <img src="C:\Users\Eric Cho\Desktop\UXUI Bootcamp\Homework\UX_UI_HW_17\images\Frame 126 (1).png" id="logo">
-                    </div>
-                    <div class="title">
-                        <h1 class="display-4">Eric Cho</h1>
-                        <p class="lead">l am an avid designer that loves to draw and illustrate as a hobby. With my focus on aesthetics, I put importance in design and creativity.</p>
-                        <hr class="my-4">
-                        <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-                        <a class="btn btn-primary btn-lg" role="button" data-toggle="modal" data-target="#exampleModal">Learn more</a>
-                    </div>
-                    <div class="navigation">
-
-                        <nav>
-                            <ul>
-                                <li class="navLi">Portfolio</li>
-                                <li class="navLi">About</li>
-                                <li class="navLi">Resume</li>
-                                <li class="navLi">Artwork</li>
-                            </ul>
-                        </nav>
-                    </div>
-                </header>
+             
     </head>
 <body>
-    
+  <header>
+    <div class="logo">
+        <img src=".\images\Frame 126 (1).png" id="logo">
+    </div>
+    <div class="title">
+        <h1 class="display-4">Eric Cho</h1>
+        <p class="lead">l am an avid designer that loves to draw and illustrate as a hobby. With my focus on aesthetics, I put importance in design and creativity.</p>
+        <hr class="my-4">
+        <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+        <a class="btn btn-primary btn-lg" role="button" data-toggle="modal" data-target="#exampleModal">Learn more</a>
+    </div>
+    <div class="nav">
+        <nav>
+            <ul>
+                <li class="navLi">Portfolio</li>
+                <li class="navLi">About</li>
+                <li class="navLi">Resume</li>
+                <li class="navLi">Artwork</li>
+            </ul>
+        </nav>
+    </div>
+</header>
         <section id="heroImg">
             <div>
-                <img src="C:\Users\Eric Cho\Desktop\UXUI Bootcamp\Homework\UX_UI_HW_17\images\Frame 128.png" id="eric">   
+                <img src=".\images\Frame 128.png" id="eric">   
                 <h>l am an avid designer that loves to draw and illustrate as a hobby. With my focus on aesthetics, I put importance in design and creativity.</h>
                 <button id="Resume">Resume</button>    
             </div>
         </section>
-
+<!--  My UX Skills section coded using CSS flex -->
+        <section class="mySkills">
+          <h1>My UX Skills</h1>
+            <div class="flexContainer">
+              <div class="skill">
+                <img src="">
+                <h3></h3>
+                <p></p>
+              </div>
+              <div class="skill">
+                <img>
+                <h3></h3>
+                <p></p>
+              </div>
+              <div class="skill">
+                <img>
+                <h3></h3>
+                <p></p>
+              </div>
+            </div>      
+        </section>
         <section class="myWork">
             <h1>My Work</h1>
             <div class="workGrid">
-            <div class="container-fluid">
+            <div class="containerFluid">
                 <div class="row"> 
                     <div class="cardContainer col-lg-3 col-md-3 col-sm-12">
                         <div class="card">
-                            <img src="C:\Users\Eric Cho\Desktop\UXUI Bootcamp\Homework\UX_UI_HW_17\images\Group 53.png" id="porject1">
+                            <img src=".\images\Group 53.png" id="project1">
                         </div>
                         <div>
-                            <h4>
-
-                            </h4>
-                            <p></p>
+                            <h4>Readingtokids.org Redesign</h4>
+                            <p>Reading to kids is a non-profit focused reading to undeserved children from volunteers.</p>
                             <button>View</button>
                         </div>
                     </div>
                     <div class="cardContainer col-lg-3 col-md-3 col-sm-12">
                         <div class="card">
-                            <img src="C:\Users\Eric Cho\Desktop\UXUI Bootcamp\Homework\UX_UI_HW_17\images\Group 57.png" id="porject2">
+                            <img src=".\images\Group 57.png" id="project2">
                         </div>
                         <div>
-                            <h4>
-
-                            </h4>
-                            <p></p>
+                            <h4>MNTR Interview Planner</h4>
+                            <p>MNTR is a planning app designed to help people in the interview process plan and organize interviews.</p>
                             <button>View</button>
                         </div>
                     </div>    
                 </div>
-                
-            </div>         
+              </div>         
             </div>
         </section>
         <section id="caseStudy">
@@ -99,7 +112,6 @@
                   <a class="dropdown-item" href="#">Something else here</a>
                 </div>
               </div>
-
         </section>
         <footer id="footer">
             <ul>
