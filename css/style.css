@@ -1,5 +1,5 @@
 header {
-    height: 350px;
+    height: 550px;
     background-color: #00004d;
     color: white;
 }
@@ -50,11 +50,8 @@ li {
 }
 
 .nav {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    padding: 0;
-    align-items: center;
+    background-color: #00004d;
+    color: white;
 }
 
 .navLi {
@@ -67,8 +64,13 @@ footer {
 }
 
 .flexContainer {
-    display: flex;
-}
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        grid-template-rows: 300px 300px 300px;
+        grid-template-columns: 300px 300px 300px;
+        ;
+    }
 
 .workGrid {
     display: flex;
@@ -97,13 +99,30 @@ footer {
         display: table-column;
     }
     .workGrid {
-        display: table-column;
+        display: flex;
+        flex-direction: column;
         width: 100%;
-        grid-template-rows: 300px 300px 300px;
-        grid-template-columns: 1fr 1fr 1fr;
         grid-template-areas: 
         "card"
         "card"
         ;
+    }
+    .containerGrid {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        grid-template-rows: 600;
+        grid-template-columns: 600 600 600;
+        grid-template-areas: 
+        "card"
+        "card"
+        ;
+    }
+    .row {
+        display: flex;
+        flex-direction: column;
+        width: 0%;
+        padding: 20px;
+        margin: 20px;
     }
 }
